@@ -3,128 +3,104 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aquelarre Sangriento</title>
+    <title>Grimorio de Freyja</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Courier New', Courier, monospace;
+            background-color: #e7dfd1; /* Parchment-like background */
+            background-image: url('parchment-texture.jpg'); /* Optional, if you have a parchment texture */
+            background-size: cover;
+            color: #2c2c2c;
             margin: 0;
             padding: 0;
-            background-color: #0d0d0d;
-            color: #f2f2f2;
         }
         header {
-            background-color: #1a1a1a;
-            padding: 20px;
             text-align: center;
-        }
-        header nav a {
-            margin: 0 15px;
-            color: #f2f2f2;
-            text-decoration: none;
-        }
-        .hero {
-            height: 90vh;
-            background-image: url('your-hero-image.jpg');
-            background-size: cover;
-            background-position: center;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-            color: #f2f2f2;
-        }
-        .hero h1 {
-            font-size: 4rem;
-            margin: 0;
-        }
-        .hero p {
-            font-size: 1.5rem;
-            margin: 20px 0;
-        }
-        .hero a {
-            padding: 10px 20px;
-            background-color: #b30000;
-            color: #f2f2f2;
-            text-decoration: none;
-            font-size: 1.2rem;
-            border-radius: 5px;
+            padding: 30px;
+            font-family: 'Georgia', serif;
+            font-size: 2.5rem;
+            letter-spacing: 3px;
         }
         section {
-            padding: 50px;
+            padding: 20px;
+            margin: 0 auto;
+            max-width: 800px;
             text-align: center;
+            border: 2px solid #333;
+            background-color: rgba(255, 255, 255, 0.8); /* Transparent white for contrast */
+            border-radius: 15px;
         }
-        .gallery img {
-            width: 30%;
-            margin: 10px;
-            border: 5px solid #333;
+        h2 {
+            font-family: 'Georgia', serif;
+            font-size: 1.8rem;
+            margin-bottom: 10px;
         }
-        .social-media a {
-            margin: 0 10px;
-            font-size: 2rem;
+        p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            font-family: 'Georgia', serif;
         }
-        .consultations {
-            background-color: #262626;
-            padding: 50px;
-            margin-top: 20px;
+        .content a {
+            display: inline-block;
+            margin: 5px;
+            padding: 10px;
+            background-color: #3b4c25;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+        .content a:hover {
+            background-color: #5e703a;
         }
         footer {
-            background-color: #1a1a1a;
-            padding: 20px;
             text-align: center;
-        }
-        footer a {
-            color: #f2f2f2;
-            text-decoration: none;
+            padding: 20px;
+            font-family: 'Georgia', serif;
+            border-top: 1px solid #333;
         }
     </style>
 </head>
 <body>
 
 <header>
-    <h1>Aquelarre Sangriento</h1>
-    <nav>
-        <a href="#">Home</a>
-        <a href="#">Gallery</a>
-        <a href="#">Consultations</a>
-        <a href="#">About</a>
-        <a href="#">Contact</a>
-    </nav>
+    Grimorio de Freyja
 </header>
 
-<section class="hero">
-    <h1>Bienvenidos a Aquelarre Sangriento</h1>
-    <p>Descubre el arte oscuro de la brujería y el misticismo</p>
-    <a href="#">Explora mi arte</a>
-</section>
+<section>
+    <h2>Usos Mágicos</h2>
+    <div class="content">
+        <!-- Clickable Words -->
+        <a href="#hechizos">Hechizos</a>
+        <a href="#rituales">Rituales</a>
+        <a href="#hierbas">Hierbas</a>
+        <a href="#propiedades">Propiedades</a>
+        <a href="#fases_lunares">Fases Lunares</a>
+        <a href="#suenos">Sueños</a>
+        <a href="#significados">Significados</a>
+        <a href="#talismanes">Talismanes</a>
+        <a href="#amuletos">Amuletos</a>
+        <a href="#correspondencias">Correspondencias</a>
+        <a href="#elementos">Elementos</a>
+        <a href="#meditaciones">Meditaciones</a>
+        <a href="#visualizaciones">Visualizaciones</a>
+        <a href="#sabbats">Sabbats</a>
+        <a href="#experiencias">Experiencias</a>
+        <a href="#observaciones">Observaciones</a>
+        <a href="#metodos_adivinacion">Métodos de Adivinación</a>
+        <a href="#invocaciones">Invocaciones</a>
+        <a href="#oraciones">Oraciones</a>
+        <a href="#simbolos">Símbolos</a>
+        <a href="#sigilos">Sigilos</a>
+    </div>
 
-<section class="gallery">
-    <h2>Mi Arte</h2>
-    <img src="art1.jpg" alt="Enchanted Ritual">
-    <img src="art2.jpg" alt="The Arcane Light">
-    <img src="art3.jpg" alt="Dark Forest">
-    <!-- Add more images as needed -->
-</section>
-
-<section class="social-media">
-    <h2>Sígueme</h2>
-    <a href="https://tiktok.com/@yourhandle">TikTok</a>
-    <a href="https://instagram.com/yourhandle">Instagram</a>
-    <a href="https://facebook.com/yourpage">Facebook</a>
-</section>
-
-<section class="consultations">
-    <h2>Reserva una Consulta</h2>
-    <p>Ofrezco sesiones personales para explorar los reinos místicos a través del arte y la práctica.</p>
-    <p><strong>Disponibilidad:</strong></p>
-    <p>Lunes - Viernes: 2 PM – 6 PM</p>
-    <p>Sábado: 12 PM – 4 PM</p>
-    <a href="#">Reserva Ahora</a>
+    <br>
+    <a href="#">Aprende a hacer tu propio Grimorio</a><br><br>
+    <a href="#">Leer más aquí</a>
 </section>
 
 <footer>
-    <p>Contacto: <a href="mailto:your.email@example.com">your.email@example.com</a> | Tel: +123456789</p>
-    <p>&copy; 2024 Aquelarre Sangriento. Todos los derechos reservados.</p>
+    © 2024 Grimorio de Freyja - Todos los derechos reservados
 </footer>
 
 </body>
